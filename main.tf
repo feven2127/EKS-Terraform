@@ -1,5 +1,6 @@
 provider "aws" {
   region = "us-east-1"
+  shared_credentials_file = ""C:\Users\BezabFev\Downloads\rootkey.csv""
 }
 
 resource "aws_vpc" "devopsshack_vpc" {
